@@ -1,4 +1,4 @@
-export const baseURL:string="http://ec2-54-179-53-18.ap-southeast-1.compute.amazonaws.com:8080/"
+export const baseURL:string="http://ec2-54-254-231-122.ap-southeast-1.compute.amazonaws.com:8080/"
 export const registerUserAPI:string= baseURL+"api/v1/register"
 export const getUserByEmail:string= baseURL+"api/v1/profile"
 export const getUserLogin:string= baseURL+"api/v1/login"
