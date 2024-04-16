@@ -17,7 +17,6 @@ import NotificationDropdown from '../Components/Common/NotificationDropdown';
 import ProfileDropdown from '../Components/Common/ProfileDropdown';
 import LightDark from '../Components/Common/LightDark';
 
-
 const Header = ({ onChangeLayoutMode, layoutModeType, headerClass } : any) => {
 
 
@@ -53,6 +52,8 @@ const Header = ({ onChangeLayoutMode, layoutModeType, headerClass } : any) => {
 
     return (
         <React.Fragment>
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+
             <header id="page-topbar" className={headerClass}>
                 <div className="layout-width">
                     <div className="navbar-header">
