@@ -52,7 +52,6 @@ const Header = ({ onChangeLayoutMode, layoutModeType, headerClass } : any) => {
 
     return (
         <React.Fragment>
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 
             <header id="page-topbar" className={headerClass}>
                 <div className="layout-width">
